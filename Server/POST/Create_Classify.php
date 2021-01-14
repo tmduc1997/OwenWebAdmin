@@ -14,7 +14,7 @@ $Product_ID=$_GET['Product_ID'];
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Name</label></div>
-                <div class="col-12 col-md-9"><input type="text" id="text-input" name="name_classify" placeholder="Ex: M,L,XL..." class="form-control"><small class="form-text text-muted"></small></div>
+                <div class="col-12 col-md-9"><input required type="text" id="text-input" name="name_classify" placeholder="Ex: M,L,XL..." class="form-control"><small class="form-text text-muted"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="select" class=" form-control-label">Display</label></div>

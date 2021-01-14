@@ -12,23 +12,23 @@ include ("../header.php");
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Product's name</label></div>
-                <div class="col-12 col-md-9"><input type="text" id="text-input" name="name_product" placeholder="Ex: MAN Unisex Simple t shirt for Men,..." class="form-control"><small class="form-text text-muted"></small></div>
+                <div class="col-12 col-md-9"><input required type="text" id="text-input" name="name_product" placeholder="Ex: MAN Unisex Simple t shirt for Men,..." class="form-control"><small class="form-text text-muted"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Image</label></div>
-                <div class="col-12 col-md-9"><input type="text" id="email-input" name="image_product" placeholder="Link" class="form-control"><small class="help-block form-text"></small></div>
+                <div class="col-12 col-md-9"><input required type="text" id="email-input" name="image_product" placeholder="Link" class="form-control"><small class="help-block form-text"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Price</label></div>
-                <div class="col-12 col-md-9"><input type="number" id="text-input" name="price_product" placeholder="Ex: $100, $120,..." class="form-control"><small class="form-text text-muted"></small></div>
+                <div class="col-12 col-md-9"><input required type="number" id="text-input" name="price_product" placeholder="Ex: $100, $120,..." class="form-control"><small class="form-text text-muted"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Available</label></div>
-                <div class="col-12 col-md-9"><input type="number" id="email-input" name="available_product" placeholder="100, 200, 500,..." class="form-control"><small class="help-block form-text"></small></div>
+                <div class="col-12 col-md-9"><input required type="number" id="email-input" name="available_product" placeholder="100, 200, 500,..." class="form-control"><small class="help-block form-text"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Description</label></div>
-                <div class="col-12 col-md-9"><textarea name="description_product" id="textarea-input" rows="9" placeholder="Description" class="form-control"></textarea></div>
+                <div class="col-12 col-md-9"><textarea required name="description_product" id="textarea-input" rows="9" placeholder="Description" class="form-control"></textarea></div>
             </div>
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="select" class=" form-control-label">Category</label></div>
@@ -89,13 +89,10 @@ include ("../header.php");
                         </select>
                     </div>
                 </div>
-
-               
                 <div class="card-footer">
     <button type="submit" class="btn btn-primary btn-sm">
             <i class="fa fa-dot-circle-o"></i> Submit
-        </button>
-        
+        </button>   
     </div>
         </form>
     </div>

@@ -31,7 +31,6 @@ include ("../header.php");
                                             <th>State</th>
                                             <th>Staff</th>
                                             <th>Edit</th>
-                                        
                                             <th>Delete</th>
                                             <th>Detail</th>
                                           

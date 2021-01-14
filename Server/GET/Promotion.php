@@ -10,7 +10,7 @@ include ("../header.php");
     }
 </script>
 <div class="content mt-3">
-<?php
+<!-- <?php
     if($_SESSION["permission"]==3){
 
     }
@@ -20,7 +20,7 @@ include ("../header.php");
     ';
     }
 
-    ?>
+    ?> -->
 
             <div class="animated fadeIn">
                 <div class="row">

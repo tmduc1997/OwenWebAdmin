@@ -19,23 +19,23 @@ $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Product's name</label></div>
-                <div class="col-12 col-md-9"><input type="text" id="text-input" name="name_product" placeholder="Tên sản phẩm" class="form-control" value="<?php echo $row['Name'];?>"><small class="form-text text-muted"></small></div>
+                <div class="col-12 col-md-9"><input required type="text" id="text-input" name="name_product" placeholder="Tên sản phẩm" class="form-control" value="<?php echo $row['Name'];?>"><small class="form-text text-muted"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Image</label></div>
-                <div class="col-12 col-md-9"><input type="text" id="email-input" name="image_product" placeholder="Ảnh sản phẩm" class="form-control" value="<?php echo $row['Image'];?>"><small class="help-block form-text"></small></div>
+                <div class="col-12 col-md-9"><input required type="text" id="email-input" name="image_product" placeholder="Ảnh sản phẩm" class="form-control" value="<?php echo $row['Image'];?>"><small class="help-block form-text"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Price</label></div>
-                <div class="col-12 col-md-9"><input type="number" id="text-input" name="price_product" placeholder="Giá" class="form-control" value="<?php echo $row['Price'];?>"><small class="form-text text-muted"></small></div>
+                <div class="col-12 col-md-9"><input required type="number" id="text-input" name="price_product" placeholder="Giá" class="form-control" value="<?php echo $row['Price'];?>"><small class="form-text text-muted"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Available</label></div>
-                <div class="col-12 col-md-9"><input type="number" id="email-input" name="available_product" placeholder="Sẵn hàng" class="form-control" value="<?php echo $row['Available'];?>"><small class="help-block form-text"></small></div>
+                <div class="col-12 col-md-9"><input required type="number" id="email-input" name="available_product" placeholder="Sẵn hàng" class="form-control" value="<?php echo $row['Available'];?>"><small class="help-block form-text"></small></div>
             </div>
             <div class="row form-group">
                 <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Description</label></div>
-                <div class="col-12 col-md-9"><textarea name="description_product" id="textarea-input" rows="9" placeholder="Mô tả" class="form-control"><?php echo $row['Description'];?></textarea></div>
+                <div class="col-12 col-md-9"><textarea required name="description_product" id="textarea-input" rows="9" placeholder="Mô tả" class="form-control"><?php echo $row['Description'];?></textarea></div>
             </div>
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="select" class=" form-control-label">Category</label></div>

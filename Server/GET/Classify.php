@@ -7,7 +7,7 @@ $Product_ID=$_GET['Product_ID'];
 <script type="text/javascript">
     function deleteClassify(id) {
         if(confirm("Do you want to delete this record ?")){
-            location.href = "../DELETE/process_delete_classify.php?Classify_ID="+id;           
+            location.href = "../DELETE/process_delete_classify.php?Classify_ID="+id+"&Product_ID="+<?php echo $Product_ID ?>;          
         }
     }
 </script>
